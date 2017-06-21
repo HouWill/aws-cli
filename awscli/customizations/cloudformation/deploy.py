@@ -76,7 +76,7 @@ class DeployCommand(BasicCommand):
                 'A list of parameter structures that specify input parameters'
                 ' for your stack template. If you\'re updating a stack and you'
                 ' don\'t specify a parameter, the command uses the stack\'s'
-                ' exisiting value. For new stacks, you must specify'
+                ' existing value. For new stacks, you must specify'
                 ' parameters that don\'t have a default value.'
                 ' Syntax: ParameterKey1=ParameterValue1'
                 ' ParameterKey2=ParameterValue2 ...'
@@ -196,11 +196,6 @@ class DeployCommand(BasicCommand):
             return parameter_values
 
         for key, value in template_dict["Parameters"].items():
-
-            if key not in parameter_overrides and "Default" in value:
-                # Parameters that have default value and not overridden, should not be
-                # passed to CloudFormation
-                continue
 
             obj = {
                 "ParameterKey": key

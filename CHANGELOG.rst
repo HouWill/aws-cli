@@ -2,6 +2,325 @@
 CHANGELOG
 =========
 
+1.11.109
+========
+
+* api-change:``workdocs``: Update workdocs command to latest version
+
+
+1.11.108
+========
+
+* bugfix:``s3 rm``: Remove unnecessary HeadObject call for non-recursive ``s3 rm``. This caused errors when a remote S3 object was encrypted with SSE-C as HeadObject call requires the SSE-C key but DeleteObject does not (`#2494 <https://github.com/aws/aws-cli/issues/2494>`__)
+* api-change:``organizations``: Update organizations command to latest version
+
+
+1.11.107
+========
+
+* api-change:``xray``: Update xray command to latest version
+
+
+1.11.106
+========
+
+* api-change:``servicecatalog``: Update servicecatalog command to latest version
+* api-change:``ecs``: Update ecs command to latest version
+* api-change:``iot``: Update iot command to latest version
+* api-change:``ec2``: Update ec2 command to latest version
+
+
+1.11.105
+========
+
+* api-change:``application-autoscaling``: Update application-autoscaling command to latest version
+* api-change:``clouddirectory``: Update clouddirectory command to latest version
+
+
+1.11.104
+========
+
+* api-change:``config``: Update config command to latest version
+
+
+1.11.103
+========
+
+* api-change:``rds``: Update rds command to latest version
+
+
+1.11.102
+========
+
+* api-change:``opsworks``: Update opsworks command to latest version
+
+
+1.11.101
+========
+
+* api-change:``rekognition``: Update rekognition command to latest version
+* enhancement:cloudformation: Added support for S3 HTTPS urls.
+* api-change:``iot``: Update iot command to latest version
+* api-change:``pinpoint``: Update pinpoint command to latest version
+
+
+1.11.100
+========
+
+* api-change:``greengrass``: Update greengrass command to latest version
+* api-change:``codebuild``: Update codebuild command to latest version
+
+
+1.11.99
+=======
+
+* api-change:``iot``: Update iot command to latest version
+* api-change:``acm``: Update acm command to latest version
+* api-change:``cloudfront``: Update cloudfront command to latest version
+
+
+1.11.98
+=======
+
+* api-change:``appstream``: Update appstream command to latest version
+* api-change:``iot``: Update iot command to latest version
+
+
+1.11.97
+=======
+
+* api-change:``kinesisanalytics``: Update kinesisanalytics command to latest version
+* api-change:``workdocs``: Update workdocs command to latest version
+
+
+1.11.96
+=======
+
+* api-change:``elbv2``: Update elbv2 command to latest version
+* api-change:``lex-models``: Update lex-models command to latest version
+* api-change:``cognito-idp``: Update cognito-idp command to latest version
+* api-change:``codedeploy``: Update codedeploy command to latest version
+
+
+1.11.95
+=======
+
+* api-change:``rds``: Update rds command to latest version
+
+
+1.11.94
+=======
+
+* api-change:``clouddirectory``: Update clouddirectory command to latest version
+
+
+1.11.93
+=======
+
+* api-change:``appstream``: Update appstream command to latest version
+* api-change:``rekognition``: Update rekognition command to latest version
+
+
+1.11.92
+=======
+
+* api-change:``iam``: Update iam command to latest version
+* api-change:``sts``: Update sts command to latest version
+* api-change:``storagegateway``: Update storagegateway command to latest version
+
+
+1.11.91
+=======
+
+* api-change:``dms``: Update dms command to latest version
+* enhancement:``ecr``: Add ``--include-email/--no-include-email`` to the ``get-login`` command.
+
+
+1.11.90
+=======
+
+* api-change:``resourcegroupstaggingapi``: Update resourcegroupstaggingapi command to latest version
+
+
+1.11.89
+=======
+
+* api-change:``lightsail``: Update lightsail command to latest version
+* api-change:``athena``: Update athena command to latest version
+
+
+1.11.88
+=======
+
+* api-change:``autoscaling``: Update autoscaling command to latest version
+* api-change:``events``: Update events command to latest version
+* api-change:``polly``: Update polly command to latest version
+* api-change:``logs``: Update logs command to latest version
+
+
+1.11.87
+=======
+
+* api-change:``kms``: Update kms command to latest version
+* api-change:``gamelift``: Update gamelift command to latest version
+* api-change:``inspector``: Update inspector command to latest version
+* api-change:``codedeploy``: Update codedeploy command to latest version
+
+
+1.11.86
+=======
+
+* api-change:``ssm``: Update ssm command to latest version
+
+
+1.11.85
+=======
+
+* api-change:``organizations``: Update organizations command to latest version
+* api-change:``elbv2``: Update elbv2 command to latest version
+* api-change:``elb``: Update elb command to latest version
+* api-change:``lex-models``: Update lex-models command to latest version
+
+
+1.11.84
+=======
+
+* api-change:``codestar``: Update codestar command to latest version
+* api-change:``workspaces``: Update workspaces command to latest version
+
+
+1.11.83
+=======
+
+* api-change:``ecs``: Update ecs command to latest version
+* api-change:``marketplace-entitlement``: Update marketplace-entitlement command to latest version
+* bugfix:``s3``: Fixed possible security issue where files could be downloaded to a directory outside the destination directory if the key contained relative paths when downloading files recursively.
+* api-change:``lambda``: Update lambda command to latest version
+
+
+1.11.82
+=======
+
+* api-change:``rekognition``: Update rekognition command to latest version
+* api-change:``rds``: Update rds command to latest version
+* api-change:``snowball``: Update snowball command to latest version
+* api-change:``sqs``: Update sqs command to latest version
+* api-change:``cloudformation``: Update cloudformation command to latest version
+
+
+1.11.81
+=======
+
+* api-change:``rds``: Update rds command to latest version
+* enhancement:rds: Add command to generate IAM database auth tokens.
+
+
+1.11.80
+=======
+
+* api-change:``kinesis``: Update kinesis command to latest version
+* api-change:``appstream``: Update appstream command to latest version
+
+
+1.11.79
+=======
+
+* api-change:``directconnect``: Update directconnect command to latest version
+* api-change:``kms``: Update kms command to latest version
+* api-change:``route53``: Update route53 command to latest version
+* api-change:``devicefarm``: Update devicefarm command to latest version
+* api-change:``route53domains``: Update route53domains command to latest version
+
+
+1.11.78
+=======
+
+* api-change:``apigateway``: Update apigateway command to latest version
+* api-change:``polly``: Update polly command to latest version
+* api-change:``lambda``: Update lambda command to latest version
+* api-change:``rekognition``: Update rekognition command to latest version
+* api-change:``lex-models``: Update lex-models command to latest version
+* api-change:``ec2``: Update ec2 command to latest version
+* api-change:``iam``: Update iam command to latest version
+* api-change:``codestar``: Update codestar command to latest version
+
+
+1.11.77
+=======
+
+* api-change:``lambda``: Update lambda command to latest version
+* bugfix:configure: Properly use the default profile in ``configure get``
+
+
+1.11.76
+=======
+
+* api-change:``opsworks``: Update opsworks command to latest version
+* api-change:``batch``: Update batch command to latest version
+* api-change:``apigateway``: Update apigateway command to latest version
+* api-change:``gamelift``: Update gamelift command to latest version
+
+
+1.11.75
+=======
+
+* api-change:``redshift``: Update redshift command to latest version
+
+
+1.11.74
+=======
+
+* api-change:``elbv2``: Update elbv2 command to latest version
+
+
+1.11.73
+=======
+
+* api-change:``elasticache``: Update elasticache command to latest version
+
+
+1.11.72
+=======
+
+* api-change:``cloudwatch``: Update cloudwatch command to latest version
+
+
+1.11.71
+=======
+
+* api-change:``lex-runtime``: Update lex-runtime command to latest version
+
+
+1.11.70
+=======
+
+* api-change:``clouddirectory``: Update clouddirectory command to latest version
+
+
+1.11.69
+=======
+
+* api-change:``config``: Update config command to latest version
+* api-change:``resourcegroupstaggingapi``: Update resourcegroupstaggingapi command to latest version
+* api-change:``storagegateway``: Update storagegateway command to latest version
+* api-change:``cloudformation``: Update cloudformation command to latest version
+* api-change:``cloudfront``: Update cloudfront command to latest version
+
+
+1.11.68
+=======
+
+* bugfix:ec2: Fixed a bug causing some ec2 commands to fail with an invalid parameter combination error when arguments were supplied via --cli-input-json. Resolves `#2452 <https://github.com/aws/aws-cli/issues/2452>`__
+* api-change:``batch``: Update batch command to latest version
+* api-change:``ec2``: Update ec2 command to latest version
+
+
+1.11.67
+=======
+
+* api-change:``ssm``: Update ssm command to latest version
+
+
 1.11.66
 =======
 
