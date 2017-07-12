@@ -2,6 +2,68 @@
 CHANGELOG
 =========
 
+1.11.117
+========
+
+* api-change:``kinesis``: Update kinesis command to latest version
+* api-change:``kms``: Update kms command to latest version
+* api-change:``ssm``: Update ssm command to latest version
+* api-change:``ds``: Update ds command to latest version
+
+
+1.11.116
+========
+
+* api-change:``route53``: Update route53 command to latest version
+* api-change:``cloudwatch``: Update cloudwatch command to latest version
+
+
+1.11.115
+========
+
+* api-change:``marketplacecommerceanalytics``: Update marketplacecommerceanalytics command to latest version
+* api-change:``s3``: Update s3 command to latest version
+
+
+1.11.114
+========
+
+* api-change:``gamelift``: Update gamelift command to latest version
+* api-change:``events``: Update events command to latest version
+* api-change:``ssm``: Update ssm command to latest version
+
+
+1.11.113
+========
+
+* api-change:``servicecatalog``: Update servicecatalog command to latest version
+
+
+1.11.112
+========
+
+* api-change:``lambda``: Update lambda command to latest version
+
+
+1.11.111
+========
+
+* api-change:``route53``: Update route53 command to latest version
+* api-change:``lightsail``: Update lightsail command to latest version
+* api-change:``codepipeline``: Update codepipeline command to latest version
+* api-change:``dms``: Update dms command to latest version
+
+
+1.11.110
+========
+
+* api-change:``ssm``: Update ssm command to latest version
+* api-change:``waf``: Update waf command to latest version
+* api-change:``waf-regional``: Update waf-regional command to latest version
+* api-change:``route53``: Update route53 command to latest version
+* api-change:``dax``: Update dax command to latest version
+
+
 1.11.109
 ========
 
